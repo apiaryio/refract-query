@@ -28,16 +28,16 @@ const results = query(element, {element: 'httpRequest'});
 
 ## Examples
 
-### Get all HTTP Responses elements
+### Get all HTTP Requests elements
 
 ```JavaScript
-const results = query([Refract Element], {element: 'httpResponses'});
+const results = query([Refract Element], {element: 'httpRequest'});
 ```
 
 ### Get all HTTP Responses elements
 
 ```JavaScript
-const results = query([Refract Element], {element: 'httpResponses'});
+const results = query([Refract Element], {element: 'httpResponse'});
 ```
 
 ### Get all Resource Groups
